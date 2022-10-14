@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(68, 68, 125);
+    color: white;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(99, 99, 190);
+    height: 90px;
+    border-radius: 25px 100px 25px 100px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    min-height: 400px;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+.titulo-pergunta{
+    margin-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    width: 350px;
+    padding-bottom: 35px;
+}
+
+.buttons button:hover{
+    background-color: rgb(226, 143, 9);
+    transition-duration: .3s;
+}
+
+.botao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 40px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.letra{
+    margin-right: 15px;
+    background-color: rgb(226, 143, 9);
+    color: white;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(185, 206, 255);
+    color: black;
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 350px;
+}
+.box2 h2{
+    padding: 10px;
+    font-size: 40px;
+}
+
+#result{
+    padding: 10px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.box2 p{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#paragrafo{
+    font-size: 20px;
+}
+.box2 button{
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 25px;
+    background-color: rgb(226, 143, 9);
+    color: white;
+}
+
+.box2 button:hover{
+    border: 2px solid rgb(226, 143, 9);
+    background-color: rgb(185, 206, 255);
+    color: rgb(226, 143, 9);
+    transition-duration: .3s;
+}
+
+.hide{
+    display: none !important;
+}
